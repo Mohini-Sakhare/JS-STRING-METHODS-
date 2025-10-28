@@ -59,3 +59,4 @@ let part = str.replaceAll("Power", "Space");
 console.log(part);
 
 output:-
+Mind, Space, Space, Soul
