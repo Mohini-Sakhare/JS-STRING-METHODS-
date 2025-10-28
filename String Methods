@@ -1,4 +1,4 @@
-slice() :-
+1. slice() :-
 slice() extracts a part of the string based on the given stating-index and ending-index and returns a new string.
 // Define a string variable 
 let A = 'Mohini is coder';
@@ -18,3 +18,16 @@ Mohini
 is
 coder
 
+2. substring() :-
+substring() returns the part of the given string from the start index to the end index. Indexing starts from zero (0).
+// Define a string variable
+let str = "Mind, Power, Soul";
+
+// Use the substring() method to extract a substring 
+let part = str.substring(6, 11);
+
+// Output the value of variable
+console.log(part);
+
+output:-
+Power
