@@ -12,3 +12,9 @@ let d = A.slice(10);
 console.log(b);
 console.log(c);
 console.log(d);
+
+output:-
+Mohini 
+is
+coder
+
