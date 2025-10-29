@@ -60,3 +60,12 @@ console.log(part);
 
 output:-
 Mind, Space, Space, Soul
+
+5.toUpperCase() :-
+toUpperCase() converts all the characters present in the String to upper case and returns a new String with all characters in upper case. This method accepts single parameter stringVariable string that you want to convert in upper case.
+
+let great = 'Mohini is Developer';
+console.log(great.toUpperCase());
+
+output:
+Mohini is Developer 
