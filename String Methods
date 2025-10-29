@@ -69,3 +69,12 @@ console.log(great.toUpperCase());
 
 output:
 Mohini is Developer 
+
+6. toLowerCase() :-
+toLowerCase() converts all the characters present in the so lowercase and returns a new string with all the characters in lowercase.
+
+let great = 'MOHINI IS DEVELOPER';
+console.log(great.toLowerCase());
+
+output:-
+mohini is developer
