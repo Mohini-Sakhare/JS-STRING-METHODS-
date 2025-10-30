@@ -82,22 +82,32 @@ mohini is developer
 7. concat()
 concat() combines the text of two strings and returns a new combined or joined string. To concatenate two strings, we use the concat() method on one object of string and send another object of string as a parameter. This method accepts one argument. The variable contains text in double quotes or single quotes.
 
-let gf = 'Mohini';
+let gfd = 'Mohini';
 let great = 'is Frontend Developer';
 
-console.log(gf.concat(great));
+console.log(gfd.concat(great));
 
 output:-
 Mohini is Frontend Developer 
 
 8.trim() :-
 trim() is used to remove either white spaces from the given string. This method returns a new string with removed white spaces. This method is called on a String object. This method doesn't accept any parameter.
-let gf = 'MS  ';
-let newgf = gf.trim();
-console.log(gf.length);
+let gfd = 'MS  ';
+let newgf = gfd.trim();
+console.log(gfd.length);
 console.log(newgf.length);
 
 output:-
 4
 2
 
+9. trimStart() :-
+trimStart() removes whitespace from the beginning of a string. The value of the string is not modified in any manner, including any whitespace present after the string.
+let gfd = '  MS';
+console.log(gfd);
+let newgf = gfd.trimStart();
+console.log(newgf);
+
+output:-
+  MS
+MS
