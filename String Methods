@@ -89,3 +89,15 @@ console.log(gf.concat(great));
 
 output:-
 Mohini is Frontend Developer 
+
+8.trim() :-
+trim() is used to remove either white spaces from the given string. This method returns a new string with removed white spaces. This method is called on a String object. This method doesn't accept any parameter.
+let gf = 'MS  ';
+let newgf = gf.trim();
+console.log(gf.length);
+console.log(newgf.length);
+
+output:-
+4
+2
+
