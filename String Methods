@@ -111,3 +111,14 @@ console.log(newgf);
 output:-
   MS
 MS
+
+10. trimEnd() :-
+trimEnd() removes white space from the end of a string. The value of the string is not modified in any manner, including any white-space present before the string.
+let gfd = 'MS  ';
+console.log(gfd);
+let newgf = gfd.trimStart();
+console.log(newgf);
+
+output:-
+MS
+MS
