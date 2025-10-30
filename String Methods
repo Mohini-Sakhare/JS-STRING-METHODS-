@@ -122,3 +122,11 @@ console.log(newgf);
 output:-
 MS
 MS
+
+11. split() :-
+split() splits the string into an array of sub-strings. This method returns an array. This method accepts a single parameter character on which you want to split the string.
+let gfd ='Mohini-is-developer';
+console.log(gfd.split('-'));
+
+output:-
+['Mohini','is','Developer']
