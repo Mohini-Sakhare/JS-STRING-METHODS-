@@ -139,3 +139,18 @@ console.log(stone);
 
 output:-
 Mind Soul
+
+13. padEnd() :-
+padEnd() pad a string with another string until it reaches the given length. The padding is applied from the right end of the string.
+let stone = "Soul";
+stone = stone.padEnd(10, " Power");
+console.log(stone);
+
+output:-
+Soul Power
+
+14. charAt() :-
+charAt() returns the character at the specified index. String in JavaScript has zero-based indexing.
+let gfd ='Mohini-is-developer';
+console.log(gfd.charAt(0));
+
