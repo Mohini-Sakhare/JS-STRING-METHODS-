@@ -136,3 +136,6 @@ padStart() pad a string with another string until it reaches the given length. T
 let stone = "Soul";
 stone = stone.padStart(9, "Mind ");
 console.log(stone);
+
+output:-
+Mind Soul
