@@ -154,3 +154,5 @@ charAt() returns the character at the specified index. String in JavaScript has 
 let gfd ='Mohini-is-developer';
 console.log(gfd.charAt(0));
 
+output:-
+M
