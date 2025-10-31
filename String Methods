@@ -130,3 +130,9 @@ console.log(gfd.split('-'));
 
 output:-
 ['Mohini','is','Developer']
+
+12. padStart() :-
+padStart() pad a string with another string until it reaches the given length. The padding is applied from the left end of the string.
+let stone = "Soul";
+stone = stone.padStart(9, "Mind ");
+console.log(stone);
